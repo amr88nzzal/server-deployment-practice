@@ -2,12 +2,12 @@
   "name": "server-deployment-practice",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "test": "jest",
     "start": "node index.js",
-    "dev": "nodemon index.js"
-  },
+    "dev": "nodemon index.js"},
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/amr88nzzal/server-deployment-practice.git"
