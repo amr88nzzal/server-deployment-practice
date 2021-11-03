@@ -14,7 +14,8 @@ app.get('/', (req, res) => {
 
 
 app.get('/bad', (req, res, next) => {
-    next('You made an Error 🛑❗');
+    throw new Error('You made an Error 🛑❗');
+    
 });
 
 
